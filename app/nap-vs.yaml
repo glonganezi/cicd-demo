@@ -5,6 +5,7 @@ metadata:
 spec:
   host: app-20.232.62.166.nip.io
   tls:
+  -naem: nap-policy
     secret: juice-shop-secret
   ingressClassName: glonganezi-nginx-ingress  
   upstreams:
